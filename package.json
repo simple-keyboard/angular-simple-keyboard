@@ -23,7 +23,7 @@
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.6",
-    "simple-keyboard": "2.5.9",
+    "simple-keyboard": "latest",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
