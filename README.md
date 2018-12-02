@@ -1,22 +1,12 @@
 <p><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/angular.png" width="60" align="center" /></p>
 <a href="https://simple-keyboard.com/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simplekeyboard-banner3x.png" align="center" width="100%"></a>
-<div align="center">
-  <p>
-  <a href="https://www.npmjs.com/package/simple-keyboard" target="_blank"><img src="https://img.shields.io/npm/v/simple-keyboard.svg?style=flat" alt="npm version"></a>
-  <a href="https://travis-ci.org/hodgef/simple-keyboard" target="_blank"><img src="https://travis-ci.org/hodgef/simple-keyboard.svg?branch=master" alt="Build Status"></a>
-  <a href="https://codecov.io/gh/hodgef/simple-keyboard" target="_blank"><img src="https://img.shields.io/codecov/c/github/hodgef/simple-keyboard/master.svg?style=flat" alt="Coverage Status"></a>
-  <a href="https://doc.esdoc.org/github.com/hodgef/simple-keyboard" target="_blank"><img src="https://doc.esdoc.org/github.com/hodgef/simple-keyboard/badge.svg" alt="Documentation Status"></a>
-  <img src="https://img.shields.io/david/dev/hodgef/simple-keyboard.svg" alt="Dev dependencies">
-  <a href="https://www.codacy.com/app/hodgef/simple-keyboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hodgef/simple-keyboard&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://api.codacy.com/project/badge/Grade/5778fccc6a894701853d9a1f2fb44a76" alt="Codacy Badge"></a>
-  </p>
-  <p>
-  <strong>Simple-keyboard Angular Demos</strong> <br /> https://virtual-keyboard.js.org/angular
-   </p>
-</div>
 
-## 📦 Installation & Usage
-You can use simple-keyboard as a `<script>` tag from a CDN, or install it from npm.
-  
+  <p>
+  <blockquote><strong>This is a repository for simple-keyboard's Angular demos</strong> <br /> https://virtual-keyboard.js.org/angular</blockquote>
+   </p>
+
+## 📦 To get started with simple-keyboard
+
 Check out the [Getting Started](https://simple-keyboard.com/getting-started) docs to begin.
 
 ## 📖 Documentation
