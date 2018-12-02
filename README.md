@@ -2,9 +2,7 @@
 
 <div align="center">
   <p>
-  <a href="https://simple-keyboard.com/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simplekeyboard-banner_B.png" align="center" width="100%"></a>
-  <a href="https://simple-keyboard.com/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/skdemo-4x2.gif" align="center" width="100%"></a>
-  <blockquote>The easily customisable and responsive on-screen virtual keyboard for Angular projects.</blockquote>
+  <a href="https://simple-keyboard.com/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simplekeyboardl.png" align="center" width="350"></a>
   <a href="https://www.npmjs.com/package/simple-keyboard" target="_blank"><img src="https://img.shields.io/npm/v/simple-keyboard.svg?style=flat" alt="npm version"></a>
   <a href="https://travis-ci.org/hodgef/simple-keyboard" target="_blank"><img src="https://travis-ci.org/hodgef/simple-keyboard.svg?branch=master" alt="Build Status"></a>
   <a href="https://codecov.io/gh/hodgef/simple-keyboard" target="_blank"><img src="https://img.shields.io/codecov/c/github/hodgef/simple-keyboard/master.svg?style=flat" alt="Coverage Status"></a>
@@ -13,7 +11,7 @@
   <a href="https://www.codacy.com/app/hodgef/simple-keyboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hodgef/simple-keyboard&amp;utm_campaign=Badge_Grade" target="_blank"><img src="https://api.codacy.com/project/badge/Grade/5778fccc6a894701853d9a1f2fb44a76" alt="Codacy Badge"></a>
   </p>
   <p>
-     Angular Virtual Keyboard <br /> https://virtual-keyboard.js.org/angular
+  <strong>Simple-keyboard Angular Demos</strong> <br /> https://virtual-keyboard.js.org/angular
    </p>
 </div>
 
