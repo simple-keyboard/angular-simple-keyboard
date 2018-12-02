@@ -4,11 +4,9 @@ import "simple-keyboard/build/css/index.css";
 
 @Component({
   selector: "app-root",
+  encapsulation: ViewEncapsulation.None,
   templateUrl: "./app.component.html",
-  /** Only for CodeSandbox demo */
-  /**/ encapsulation: ViewEncapsulation.None,
-  /**/ styleUrls: ["./app.component.css", "../../node_modules/simple-keyboard/build/css/index.css"]
-  /** ----- */
+  styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
   value = "";
