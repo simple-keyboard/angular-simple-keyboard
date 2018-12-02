@@ -15,7 +15,8 @@ export class AppComponent {
   ngOnInit() {
     this.keyboard = new Keyboard({
       onChange: input => this.onChange(input),
-      onKeyPress: button => this.onKeyPress(button)
+      onKeyPress: button => this.onKeyPress(button),
+      theme: "hg-theme-default myTheme1"
     });
   }
 
