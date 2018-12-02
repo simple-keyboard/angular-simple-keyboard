@@ -4,8 +4,9 @@
   <p>
   <blockquote><strong>This is a repository for simple-keyboard's Angular demos</strong> <br /> https://virtual-keyboard.js.org/angular</blockquote>
    </p>
+   <br />
 
-## 📦 To get started with simple-keyboard
+## 📦 Get started with simple-keyboard
 
 Check out the [Getting Started](https://simple-keyboard.com/getting-started) docs to begin.
 
