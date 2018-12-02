@@ -1,6 +1,13 @@
 {
   "name": "angular-simple-keyboard",
-  "version": "2.0.0",
+  "version": "1.0.0",
+  "description": "Angular Virtual Keyboard for Kiosks, Mobile and Web",
+  "keywords": [
+    "virtual",
+    "keyboard",
+    "onscreen",
+    "kiosk"
+  ],
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -46,7 +53,5 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
-  },
-  "keywords": [],
-  "description": ""
+  }
 }
