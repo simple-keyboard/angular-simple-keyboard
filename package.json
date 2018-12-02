@@ -1,6 +1,6 @@
 {
-  "name": "simple-keyboard-angular-demo-npm",
-  "version": "0.0.0",
+  "name": "angular-simple-keyboard",
+  "version": "2.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
