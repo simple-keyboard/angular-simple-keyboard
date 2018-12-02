@@ -5,8 +5,10 @@ import "simple-keyboard/build/css/index.css";
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
-  encapsulation: ViewEncapsulation.None,
-  styleUrls: ["./app.component.css", "../../node_modules/simple-keyboard/build/css/index.css"]
+  /** Only for CodeSandbox demo */
+  /**/ encapsulation: ViewEncapsulation.None,
+  /**/ styleUrls: ["./app.component.css", "../../node_modules/simple-keyboard/build/css/index.css"]
+  /** ----- */
 })
 export class AppComponent {
   value = "";
