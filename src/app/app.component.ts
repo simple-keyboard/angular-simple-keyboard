@@ -15,7 +15,22 @@ export class AppComponent {
   ngOnInit() {
     this.keyboard = new Keyboard({
       onChange: input => this.onChange(input),
-      onKeyPress: button => this.onKeyPress(button)
+      onKeyPress: button => this.onKeyPress(button),
+      theme: "myTheme2",
+      buttonTheme: [
+        {
+          class: "myTheme2b",
+          buttons: "{bksp}"
+        }
+      ],
+      display: {
+        "{enter}": "submit",
+        "{bksp}": "delete",
+        "{lock}": "lock",
+        "{shift}": "shift",
+        "{tab}": "tab",
+        "{space}": " "
+      }
     });
   }
 
