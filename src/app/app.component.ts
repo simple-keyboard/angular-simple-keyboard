@@ -1,15 +1,16 @@
-import { Component } from "@angular/core";
+import { Component, ViewEncapsulation } from "@angular/core";
 import Keyboard from "simple-keyboard";
 import "simple-keyboard/build/css/index.css";
 
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  encapsulation: ViewEncapsulation.None,
+  styleUrls: ["./app.component.css", "../../node_modules/simple-keyboard/build/css/index.css"]
 })
 export class AppComponent {
-  title = "simple-keyboard";
   value = "";
+  keyboard: Keyboard;
 
   ngOnInit() {
     this.keyboard = new Keyboard({
@@ -18,12 +19,12 @@ export class AppComponent {
     });
   }
 
-  onChange = input => {
+  onChange = (input: string) => {
     this.value = input;
     console.log("Input changed", input);
   };
 
-  onKeyPress = button => {
+  onKeyPress = (button: string) => {
     console.log("Button pressed", button);
 
     /**
@@ -32,7 +33,7 @@ export class AppComponent {
     if (button === "{shift}" || button === "{lock}") this.handleShift();
   };
 
-  onInputChange = event => {
+  onInputChange = (event: any) => {
     this.keyboard.setInput(event.target.value);
   };
 

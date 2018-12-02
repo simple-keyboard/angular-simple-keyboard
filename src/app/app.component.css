@@ -8,4 +8,9 @@ input {
   padding: 20px;
   font-size: 20px;
   border: none;
+  box-sizing: border-box;
+}
+
+.simple-keyboard {
+  max-width: 850px;
 }
