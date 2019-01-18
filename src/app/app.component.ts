@@ -117,7 +117,13 @@ export class AppComponent {
     /**
      * If you want to handle the shift and caps lock buttons
      */
-    if (button === "{shift}" || button === "{lock}") this.handleShift();
+    if (
+      button === "{shift}" ||
+      button === "{shiftleft}" ||
+      button === "{shiftright}" ||
+      button === "{capslock}"
+    )
+      this.handleShift();
   };
 
   onInputChange = (event: any) => {
