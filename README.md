@@ -4,6 +4,9 @@
   <p>
   <blockquote><strong>This is a repository for simple-keyboard's Angular demos</strong> <br /> https://virtual-keyboard.js.org/angular</blockquote>
    </p>
+
+> **Note**: By default, Angular 5 is used in the demos. [Click here for an Angular 7 demo](https://codesandbox.io/s/github/simple-keyboard/angular7-simple-keyboard-demo).
+
    <br />
 
 ## 📦 Get started with simple-keyboard
