@@ -14,7 +14,7 @@ export class AppComponent {
   value = "";
   keyboard: Keyboard;
 
-  ngOnInit() {
+  ngAfterViewInit() {
     this.keyboard = new Keyboard({
       onChange: input => this.onChange(input),
       onKeyPress: button => this.onKeyPress(button),
