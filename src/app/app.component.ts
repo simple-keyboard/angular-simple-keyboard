@@ -6,13 +6,16 @@ import "simple-keyboard/build/css/index.css";
   selector: "app-root",
   encapsulation: ViewEncapsulation.None,
   templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  styleUrls: [
+    "../../node_modules/simple-keyboard/build/css/index.css",
+    "./app.component.css"
+  ]
 })
 export class AppComponent {
   value = "";
   keyboard: Keyboard;
 
-  ngOnInit() {
+  ngAfterViewInit() {
     this.keyboard = new Keyboard({
       onChange: input => this.onChange(input),
       onKeyPress: button => this.onKeyPress(button),
