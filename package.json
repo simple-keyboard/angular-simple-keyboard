@@ -1,6 +1,6 @@
 {
   "name": "angular-simple-keyboard",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Angular Virtual Keyboard for Kiosks, Mobile and Web",
   "keywords": [
     "virtual",
@@ -9,6 +9,15 @@
     "kiosk"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hodgef/simple-keyboard"
+  },
+  "author": "Francisco Hodge <hello@franciscohodge.com> (https://github.com/hodgef)",
+  "bugs": {
+    "url": "https://github.com/hodgef/simple-keyboard/issues"
+  },
+  "homepage": "https://virtual-keyboard.js.org/angular",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
