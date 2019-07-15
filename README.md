@@ -7,6 +7,8 @@
 
 > **Note**: By default, Angular 5 is used in the demos. [Click here for an Angular 7 demo](https://codesandbox.io/s/github/simple-keyboard/angular7-simple-keyboard-demo).
 
+> **Have an issue or question? [Please post it in the main repository.](https://github.com/hodgef/simple-keyboard/issues)**
+
    <br />
 
 ## 📦 Get started with simple-keyboard
