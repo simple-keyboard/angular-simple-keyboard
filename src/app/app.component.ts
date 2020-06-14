@@ -1,3 +1,8 @@
+/**
+ * Note: If you're having issues with "ViewEncapsulation.None",
+ * you can instead add '@import "~simple-keyboard/build/css/index.css";' to your styles.scss
+ * https://github.com/hodgef/simple-keyboard/issues/580
+ */
 import { Component, ViewEncapsulation } from "@angular/core";
 import Keyboard from "simple-keyboard";
 
