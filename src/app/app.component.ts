@@ -1,9 +1,10 @@
-import { Component } from "@angular/core";
+import { Component, ViewEncapsulation } from "@angular/core";
 import Keyboard from "simple-keyboard";
 import "simple-keyboard/build/css/index.css";
 
 @Component({
   selector: "app-root",
+  encapsulation: ViewEncapsulation.None,
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
